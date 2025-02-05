@@ -5,10 +5,10 @@ import { SkillsChartComponent } from '../skills-chart/skills-chart.component';
 
 @Component({
   selector: 'app-main-control',
-  standalone: true,
   imports: [ExperiencesComponent, EducationComponent, SkillsChartComponent],
   templateUrl: './main-control.component.html',
-  styleUrls: ['./main-control.component.scss'], // Corrigido
+  standalone: true,
+  styleUrls: ['./main-control.component.scss'],
 })
 export class MainControlComponent {
   constructor() {

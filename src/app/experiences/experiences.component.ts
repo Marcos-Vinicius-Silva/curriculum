@@ -3,10 +3,10 @@ import { WhiteLineComponent } from '../white-line/white-line.component';
 
 @Component({
   selector: 'app-experiences',
-  standalone: true,
   imports: [WhiteLineComponent],
   templateUrl: './experiences.component.html',
   styleUrl: './experiences.component.scss',
+  standalone: true,
 })
 export class ExperiencesComponent implements OnInit {
   startDate = new Date(2022, 11, 1); // Dezembro de 2022 (mês começa do 0, então 11 = dezembro)

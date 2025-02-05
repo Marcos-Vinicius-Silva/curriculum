@@ -3,9 +3,9 @@ import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-skills-chart',
-  standalone: true,
   imports: [CommonModule],
   templateUrl: './skills-chart.component.html',
+  standalone: true,
   styleUrls: ['./skills-chart.component.scss'],
 })
 export class SkillsChartComponent {

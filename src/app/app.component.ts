@@ -5,10 +5,10 @@ import { MainControlComponent } from './main-control/main-control.component';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
   imports: [RouterOutlet, LeftContainerComponent, MainControlComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
+  standalone: true,
 })
 export class AppComponent {
   title = 'curriculum';

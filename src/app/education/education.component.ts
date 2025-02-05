@@ -3,9 +3,9 @@ import { WhiteLineComponent } from '../white-line/white-line.component';
 
 @Component({
   selector: 'app-education',
-  standalone: true,
   templateUrl: './education.component.html',
   styleUrl: './education.component.scss',
+  standalone: true,
   imports: [WhiteLineComponent],
 })
 export class EducationComponent implements OnInit {
