@@ -1,0 +1,136 @@
+<div class="experience-card">
+  <div class="main-header" (click)="toggleExpand()">
+    <div class="icon-experience"></div>
+    <h3>Experiências</h3>
+    <span class="toggle-icon" [class.expanded]="isExpanded">▼</span>
+  </div>
+
+  <app-white-line></app-white-line>
+
+  <div class="content" [class.expanded]="isExpanded">
+
+    <div [class.expanded]="isExpanded">
+      <div class="header">
+        <div class="icon-advise">
+          <i class="icon-file"></i>
+        </div>
+
+        <div class="details">
+          <h3>Advise</h3>
+          <p class="date"><i class="icon-calendar"></i>dez de 2022 - Atualidade · {{ experienceTime }}</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="tags">
+          <span><i class="icon-group"></i>Front End Developer</span>
+          <span>AngularJS</span>
+          <span>Angular +</span>
+          <span>React Native</span>
+          <span>Git Hub</span>
+        </div>
+        <p class="description">
+          Como Desenvolvedor Front End, sou responsável por criar e
+          implementar novos produtos, além de atualizar os sistemas
+          existentes, garantindo que atendam às necessidades dos
+          clientes de forma eficiente e moderna.
+        </p>
+      </div>
+    </div>
+
+    <app-white-line color="gray-strong" [class.expanded]="isExpanded"></app-white-line>
+
+    <div [class.expanded]="isExpanded">
+      <div class="header">
+        <div class="icon-startcorp">
+          <i class="icon-file"></i>
+        </div>
+
+        <div class="details">
+          <h3>StarCorp</h3>
+          <p class="date"><i class="icon-calendar"></i>out de 2021 - dez de 2022 · 1 ano 3 meses</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="tags">
+          <span><i class="icon-group"></i>Front End Developer</span>
+          <span>AngularJS</span>
+          <span>React</span>
+          <span>Next</span>
+          <span>C#</span>
+          <span>Blazor</span>
+          <span>Git Hub</span>
+        </div>
+        <p class="description">
+          Desenvolvedor Front-End Leader
+          Responsável por liderar uma equipe na criação de
+          novas interfaces e filtros para os sistemas da
+          empresa. Além disso, atuo na edição e estilização
+          dos respectivos e-commerces da empresa, bem
+          como na implementação de novas funcionalidades.
+          Utilizo uma variedade de linguagens e ferramentas,
+          incluindo JavaScript, C#, AngularJS, Bootstrap, CSS,
+          HTML5 e ReactJS.
+        </p>
+      </div>
+    </div>
+
+    <app-white-line color="gray-strong" [class.expanded]="isExpanded"></app-white-line>
+
+    <div [class.expanded]="isExpanded">
+      <div class="header">
+        <div class="icon-bk">
+          <i class="icon-file"></i>
+        </div>
+
+        <div class="details">
+          <h3>Burger King do Brasil</h3>
+          <p class="date"><i class="icon-calendar"></i>jun de 2017 - mai de 2021 · 4 anos</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="tags">
+          <span><i class="icon-group"></i>Gerente de turno</span>
+          <span>Gestão de pessoas</span>
+          <span>Gestão de loja</span>
+        </div>
+        <p class="description">
+          Gerente de turno
+          Responsável por planejar vendas para aumentar a
+          lucratividade, otimizar recursos, controlar o
+          recebimento de materiais e gerenciar pessoas.
+          Também cuida do cumprimento de normas,
+          preenche indicadores diários e realiza outras tarefas
+          relacionadas.
+        </p>
+      </div>
+    </div>
+
+    <app-white-line color="gray-strong" [class.expanded]="isExpanded"></app-white-line>
+
+    <div [class.expanded]="isExpanded">
+      <div class="header">
+        <div class="icon-videoke">
+          <i class="icon-file"></i>
+        </div>
+
+        <div class="details">
+          <h3>Videoke Campinas</h3>
+          <p class="date"><i class="icon-calendar"></i>2015 - 2017 · 2 anos</p>
+        </div>
+      </div>
+      <div class="info">
+        <div class="tags">
+          <span><i class="icon-group"></i>Assistente Comercial</span>
+          <span>Market</span>
+          <span>Gestão de loja</span>
+        </div>
+        <p class="description">
+          Assistente Comercial
+          Responsável por manter o local de trabalho, gerenciar o fluxo de caixa e atendimento ao cliente. Focado em
+          atrair novos clientes através de marketing em redes sociais, telemarketing e outras estratégias de vendas.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,320 @@
+.container-left {
+  width: 250px;
+  background: #292b2f;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+
+  > .container-left-photo {
+    width: 100%;
+    // height: 208px;
+    background-color: #3d3b3bb5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    > .container-left-sub-title {
+      font-family: "Roboto Condensed" !important;
+      font-style: italic !important;
+      font-weight: 300 !important;
+      font-size: 14px !important;
+      line-height: 0px !important;
+      /* identical to box height, or 0% */
+      display: flex !important;
+      align-items: center !important;
+      text-align: center !important;
+      letter-spacing: 0.025em !important;
+
+      color: #868d97 !important;
+    }
+
+    > .container-left-title,
+    .container-left-sub-title {
+      padding: 10px;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 24px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+
+      color: #f7f7f7;
+    }
+  }
+}
+
+.main {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.main-about-container,
+.main-reach-container {
+  display: flex;
+  align-items: center;
+}
+
+.reach-description {
+  padding-top: 10px !important;
+
+  /* Location text */
+  flex-direction: column;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 0px;
+  /* identical to box height, or 0% */
+  display: flex;
+  // align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+
+  > li {
+    word-break: break-word;
+    white-space: normal;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    text-align: left;
+
+    > a {
+      /* Location text */
+      text-decoration: none;
+      flex-direction: column;
+      font-family: "Roboto Condensed";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 12px;
+      line-height: 0px;
+      /* identical to box height, or 0% */
+      display: flex;
+      // align-items: center;
+      text-align: center;
+
+      color: #ffffff;
+    }
+  }
+}
+
+.container-left-img {
+  width: 150px; /* Defina o tamanho necessário */
+  height: 150px;
+  background-image: url("/assets/images/profile.png"); /* Caminho da imagem */
+  background-size: cover; /* Ajusta o tamanho da imagem */
+  background-position: center; /* Centraliza a imagem */
+  // border-radius: 50%; /* Exemplo: tornar a imagem circular */
+}
+
+.main-about-container-logo {
+  width: 24px; /* Defina o tamanho necessário */
+  height: 24px;
+  background-image: url("/assets/images/about.png"); /* Caminho da imagem */
+  background-size: cover; /* Ajusta o tamanho da imagem */
+  background-position: center; /* Centraliza a imagem */
+  // border-radius: 50%; /* Exemplo: tornar a imagem circular */
+}
+
+.main-reach-container-logo {
+  width: 24px; /* Defina o tamanho necessário */
+  height: 24px;
+  background-image: url("/assets/images/contact.png"); /* Caminho da imagem */
+  background-size: cover; /* Ajusta o tamanho da imagem */
+  background-position: center; /* Centraliza a imagem */
+  // border-radius: 50%; /* Exemplo: tornar a imagem circular */
+}
+
+.location-icon {
+  width: 22px; /* Defina o tamanho necessário */
+  height: 22px;
+  background-image: url("/assets/images/location.svg"); /* Caminho da imagem */
+  background-size: cover; /* Ajusta o tamanho da imagem */
+  background-position: center; /* Centraliza a imagem */
+  // border-radius: 50%; /* Exemplo: tornar a imagem circular */
+}
+
+.phone-icon {
+  width: 22px; /* Defina o tamanho necessário */
+  height: 22px;
+  background-image: url("/assets/images/phone.svg"); /* Caminho da imagem */
+  background-size: cover; /* Ajusta o tamanho da imagem */
+  background-position: center; /* Centraliza a imagem */
+  // border-radius: 50%; /* Exemplo: tornar a imagem circular */
+}
+
+.mail-icon {
+  width: 22px; /* Defina o tamanho necessário */
+  height: 22px;
+  background-image: url("/assets/images/mail.svg"); /* Caminho da imagem */
+  background-size: cover; /* Ajusta o tamanho da imagem */
+  background-position: center; /* Centraliza a imagem */
+  // border-radius: 50%; /* Exemplo: tornar a imagem circular */
+}
+
+.linkedin-icon {
+  width: 22px; /* Defina o tamanho necessário */
+  height: 22px;
+  background-image: url("/assets/images/linkedIn.svg"); /* Caminho da imagem */
+  background-size: cover; /* Ajusta o tamanho da imagem */
+  background-position: center; /* Centraliza a imagem */
+  // border-radius: 50%; /* Exemplo: tornar a imagem circular */
+}
+
+.github-icon {
+  width: 22px; /* Defina o tamanho necessário */
+  height: 22px;
+  background-image: url("/assets/images/github.svg"); /* Caminho da imagem */
+  background-size: cover; /* Ajusta o tamanho da imagem */
+  background-position: center; /* Centraliza a imagem */
+  // border-radius: 50%; /* Exemplo: tornar a imagem circular */
+}
+
+.main-about-container-title,
+.main-reach-container-title {
+  padding-left: 10px;
+
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 0px;
+  /* identical to box height, or 0% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.025em;
+
+  color: #ffffff;
+}
+
+.main-about-descripton {
+  /* Description */
+
+  padding-top: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 16px;
+  /* or 160% */
+  letter-spacing: 0.025em;
+
+  color: #f7f7f7;
+}
+
+.main-languages {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.language-level {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // background-color: #2d2d2d; // Ajuste a cor de fundo conforme necessário
+  padding: 10px;
+  border-radius: 8px;
+  color: #fff;
+
+  .language {
+    display: flex;
+    flex-direction: column;
+
+    span {
+      font-size: 14px;
+
+      &:first-child {
+        font-weight: bold;
+        font-size: 16px;
+      }
+
+      &.certificate {
+        color: #a5a5a5; // Cor do texto para "CEFR B2, PET certificate"
+        font-size: 12px;
+      }
+    }
+  }
+
+  .level-dots {
+    display: flex;
+    gap: 5px;
+
+    .dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background-color: #555; // Cor padrão
+
+      &.filled {
+        background-color: #fff; // Cor para os pontos preenchidos
+      }
+
+      &.empty {
+        background-color: #444; // Cor para os pontos não preenchidos
+      }
+    }
+  }
+}
+
+.reach-me {
+  // background-color: #222;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+  // width: 300px;
+  font-family: Arial, sans-serif;
+
+  h3 {
+    // margin-bottom: 20px;
+    font-size: 18px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+      font-size: 14px;
+
+      .icon {
+        margin-left: 10px;
+        margin-right: 10px;
+        // background-color: #555;
+        // border-radius: 50%;
+      }
+
+      &.location-icon {
+        background-color: #007bff; /* Cor fictícia */
+      }
+
+      &.phone-icon {
+        background-color: #28a745; /* Cor fictícia */
+      }
+
+      &.email-icon {
+        background-color: #ffc107; /* Cor fictícia */
+      }
+
+      &.linkedin-icon {
+        background-color: #0e76a8; /* Cor fictícia */
+      }
+
+      &.user-icon {
+        background-color: #6c757d; /* Cor fictícia */
+      }
+
+      &.github-icon {
+        background-color: #333; /* Cor fictícia */
+      }
+    }
+  }
+}

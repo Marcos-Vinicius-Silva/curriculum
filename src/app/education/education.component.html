@@ -1,0 +1,69 @@
+<div class="education-card">
+  <div class="main-header" (click)="toggleExpand()">
+    <div class="icon-education"></div>
+    <h3>Educação</h3>
+    <span class="toggle-icon" [class.expanded]="isExpanded">▼</span>
+  </div>
+
+  <app-white-line></app-white-line>
+
+  <div class="content" [class.expanded]="isExpanded">
+    <div [class.expanded]="isExpanded">
+      <div class="header">
+        <div class="icon-anhanguera">
+          <i class="icon-file"></i>
+        </div>
+
+        <div class="details">
+          <h3>Faculdade Anhanguera</h3>
+          <p class="date"><i class="icon-calendar"></i>Parado no 3° ano Incompleto</p>
+        </div>
+      </div>
+      <div class="info">
+        <p class="description">
+          Ciências da computação
+        </p>
+      </div>
+    </div>
+
+    <app-white-line color="gray-strong" [class.expanded]="isExpanded"></app-white-line>
+
+    <div [class.expanded]="isExpanded">
+      <div class="header">
+        <div class="icon-microcamp">
+          <i class="icon-file"></i>
+        </div>
+
+        <div class="details">
+          <h3>Microcamp tecnologia</h3>
+          <p class="date"><i class="icon-calendar"></i>Completo</p>
+        </div>
+      </div>
+      <div class="info">
+        <p class="description">
+          Microcamp tecnologia
+        </p>
+      </div>
+    </div>
+
+    <app-white-line color="gray-strong" [class.expanded]="isExpanded"></app-white-line>
+
+    <div [class.expanded]="isExpanded">
+      <div class="header">
+        <div class="icon-alura">
+          <i class="icon-file"></i>
+        </div>
+
+        <div class="details">
+          <h3>Alura</h3>
+          <p class="date"><i class="icon-calendar"></i>Completo</p>
+        </div>
+      </div>
+      <div class="info">
+        <p class="description">
+          Formação Front-End
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

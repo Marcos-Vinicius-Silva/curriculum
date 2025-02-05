@@ -1,0 +1,208 @@
+.education-card {
+  color: #ffffff; /* Texto branco */
+  border-radius: 8px;
+  padding: 16px;
+
+  .header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    .icon {
+      background-color: #333;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      font-size: 20px;
+      color: #fff;
+    }
+
+    .details {
+      h3 {
+        margin: 0;
+        font-size: 18px;
+        font-weight: bold;
+      }
+
+      .date {
+        margin: 0;
+        font-size: 14px;
+        color: #999;
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+
+  .info {
+    margin-top: 12px;
+
+    .tags {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 8px;
+
+      span {
+        background-color: #444;
+        color: #ddd;
+        font-size: 12px;
+        padding: 4px 8px;
+        border-radius: 4px;
+
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+    }
+
+    .description {
+      font-size: 14px;
+      line-height: 1.6;
+
+      strong {
+        color: #00bcd4; /* Cor em destaque */
+      }
+    }
+  }
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+
+  > h3 {
+    /* educations title */
+    padding-left: 1em;
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 0px;
+    /* identical to box height, or 0% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+}
+
+.education-card {
+  .main-header {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    h3 {
+      margin-right: 8px;
+    }
+
+    .toggle-icon {
+      font-size: 1.2rem;
+      transition: transform 0.3s ease;
+
+      &.expanded {
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+  .content {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s ease, opacity 0.3s ease;
+    opacity: 0;
+
+    &.expanded {
+      max-height: 500px; // Defina um valor suficiente para seu conteúdo
+      opacity: 1;
+    }
+  }
+}
+
+.icon-advise {
+  width: 32px; /* Defina o tamanho necessário */
+  height: 32px;
+  background-image: url("/assets/images/advise.png"); /* Caminho da imagem */
+  background-size: cover; /* Ajusta o tamanho da imagem */
+  background-position: center; /* Centraliza a imagem */
+  // border-radius: 50%; /* Exemplo: tornar a imagem circular */
+}
+
+.icon-startcorp {
+  width: 32px; /* Defina o tamanho necessário */
+  height: 32px;
+  background-image: url("/assets/images/starcorp.png"); /* Caminho da imagem */
+  background-size: cover; /* Ajusta o tamanho da imagem */
+  background-position: center; /* Centraliza a imagem */
+  // border-radius: 50%; /* Exemplo: tornar a imagem circular */
+}
+
+.icon-education {
+  width: 32px; /* Defina o tamanho necessário */
+  height: 32px;
+  background-image: url("/assets/images/educations.svg"); /* Caminho da imagem */
+  background-size: cover; /* Ajusta o tamanho da imagem */
+  background-position: center; /* Centraliza a imagem */
+  // border-radius: 50%; /* Exemplo: tornar a imagem circular */
+}
+
+.icon-bk {
+  width: 32px; /* Defina o tamanho necessário */
+  height: 32px;
+  background-image: url("/assets/images/bk.jpeg"); /* Caminho da imagem */
+  background-size: cover; /* Ajusta o tamanho da imagem */
+  background-position: center; /* Centraliza a imagem */
+  // border-radius: 50%; /* Exemplo: tornar a imagem circular */
+}
+
+.icon-calendar {
+  width: 22px; /* Defina o tamanho necessário */
+  height: 22px;
+  background-image: url("/assets/images/Icon-calendar.svg"); /* Caminho da imagem */
+  background-size: cover; /* Ajusta o tamanho da imagem */
+  background-position: center; /* Centraliza a imagem */
+  // border-radius: 50%; /* Exemplo: tornar a imagem circular */
+}
+
+.icon-group {
+  width: 22px; /* Defina o tamanho necessário */
+  height: 22px;
+  background-image: url("/assets/images/group.svg"); /* Caminho da imagem */
+  background-size: cover; /* Ajusta o tamanho da imagem */
+  background-position: center; /* Centraliza a imagem */
+  // border-radius: 50%; /* Exemplo: tornar a imagem circular */
+}
+
+.icon-anhanguera {
+  width: 22px; /* Defina o tamanho necessário */
+  height: 22px;
+  background-image: url("/assets/images/logo-anhanguera.webp"); /* Caminho da imagem */
+  background-size: cover; /* Ajusta o tamanho da imagem */
+  background-position: center; /* Centraliza a imagem */
+  // border-radius: 50%; /* Exemplo: tornar a imagem circular */
+}
+
+.icon-microcamp {
+  width: 22px; /* Defina o tamanho necessário */
+  height: 22px;
+  background-image: url("/assets/images/microcamp.png"); /* Caminho da imagem */
+  background-size: cover; /* Ajusta o tamanho da imagem */
+  background-position: center; /* Centraliza a imagem */
+  // border-radius: 50%; /* Exemplo: tornar a imagem circular */
+}
+
+.icon-alura {
+  width: 22px; /* Defina o tamanho necessário */
+  height: 22px;
+  background-image: url("/assets/images/logo-alura.svg"); /* Caminho da imagem */
+  background-size: cover; /* Ajusta o tamanho da imagem */
+  background-position: center; /* Centraliza a imagem */
+  // border-radius: 50%; /* Exemplo: tornar a imagem circular */
+}

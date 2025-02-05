@@ -1,0 +1,23 @@
+.skills-chart {
+  display: flex;
+  justify-content: space-around;
+  background-color: #2b3e78;
+  padding: 20px;
+  border-radius: 12px;
+  color: white;
+}
+
+.chart-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.bg-circle {
+  stroke-width: 3;
+}
+
+.progress-circle {
+  stroke-linecap: round;
+  transform: rotate(-90deg);
+  transform-origin: center;
+}
