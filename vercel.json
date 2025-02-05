@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "dist/curriculum/**",
+      "src": "dist/curriculum/browser/**",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/dist/curriculum/$1"
+      "dest": "/dist/curriculum/browser/$1"
     }
   ]
 }
