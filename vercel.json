@@ -2,14 +2,17 @@
   "version": 2,
   "builds": [
     {
-      "src": "dist/curriculum/**",
-      "use": "@vercel/static"
+      "src": "angular.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist/curriculum"
+      }
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "dist/curriculum/$1"
+      "dest": "/index.html"
     }
   ]
 }
